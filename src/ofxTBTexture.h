@@ -25,7 +25,6 @@ public:
     void draw(const ofPoint ps[4], const ofRectangle &r, int n = 4);
 	void draw(const ofPoint &p1, const ofPoint &p2, const ofPoint &p3, const ofPoint &p4, const ofRectangle &r, int n = 4);
     void drawCircle(const ofPoint &center, float radius);
-    
 	void drawTriangleFan(const ofPoint * const ps, const ofPoint * const tps, int vertexNum);
     
     inline const ofTexture &getRawOfTexture() const {
